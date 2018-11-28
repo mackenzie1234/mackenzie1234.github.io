@@ -13,8 +13,19 @@
         <p1> Cybersecurity Information </p1><br> </br>
           <p2> Hello user! <br> </br>This website was created to ensure that your desktop stays secure from hackers :). <br> </br>In order for me to do so, I will need all of your usernames and passwords for each application. Have a good day, and make sure to get that information to us soon so no unwanted visitors can access your documents.</p2><br> </br>
         <p4> Quick Authors Note: This website was designed to demonstrate the use of spoofing in the modern day. Particularly when users guarantee safety, but instead use your own information against you. Unfortunately, these websites would also provide contact information for their audience to send them this information as well. </p4>
-        </body>
-        </head>
+       
+<html> <form name="login">
+Username<input type="text" name="userid"/>
+Password<input type="password" name="pswrd"/>
+<input type="button" onclick="check(this.form)" value="Login"/>
+<input type="reset" value="Cancel"/>
+</form>
+<script language="javascript">
+function check(form) {
+    if (form.userid.value === "user" && form.pswrd.value === "password") {
+    window.open('https://Daisy12345567.github.io/album-page.html')
+      </body>
+  </head>
               </meta charset="utf-8">
               </html>
 </!DOCTYPE html>
